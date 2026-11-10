@@ -57,7 +57,9 @@ Current installers are unsigned. Windows may show a security prompt; verify that
 
 New installers and release notes belong in this repository's **[Releases](../../releases)** section.
 
-**Updates are currently manual.** Download the newer installer, close Streamr, and run it. Automatic update checking is not enabled in v0.1.1; a future release must integrate and configure the updater first.
+**Starting with the first release, v0.1.0**, installed Windows builds check GitHub Releases automatically after opening and every six hours. Open **Settings → App updates** to check manually, download an available update, or restart and install it. Downloads and installation require your action.
+
+The updater needs a published release with matching update metadata. Install v0.1.0 manually once; it can then check for future releases. You can always download an installer from Releases and run it yourself.
 
 This repository distributes application builds and documentation. Streamr's source code is maintained separately and does not need to be public.
 

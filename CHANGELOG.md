@@ -6,7 +6,16 @@ For installers and version-specific notes, visit **[Releases](../../releases)**.
 
 ---
 
-## 0.1.1
+## 0.1.0 · Initial release
+
+- Automatic checks for stable releases after startup and every six hours in installed Windows builds.
+- Settings controls to check, download, and restart to install an update.
+- Download progress and clear messages for unavailable releases or connection problems.
+- Separate update metadata for x64 and ARM64 installers.
+- Public release downloads; the source repository can remain private.
+
+Install this first release manually. The checker requires the release assets and matching metadata to be published.
+
 
 ### Discover more
 
@@ -29,11 +38,11 @@ For installers and version-specific notes, visit **[Releases](../../releases)**.
 - Keep your preferred window position, normal size, maximized state, and fullscreen state across launches.
 - Install using a compact Windows setup wizard with Streamr branding.
 
-### Before you update
+### Release notes
 
 - Windows 10 and Windows 11 installers are available for x64 and ARM64 builds.
 - Installers are currently unsigned.
-- Updates are manual in this version. Automatic update checking is not enabled.
+- Automatic checks are included; downloads and installation require your action.
 - Title information and playback features depend on the external services providing them.
 
 ---

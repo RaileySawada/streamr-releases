@@ -2,7 +2,7 @@
 
 Copy the section below into a new GitHub Release description. Replace `VERSION` and the bracketed prompts, and remove sections that do not apply. Describe only changes included in that build.
 
-Use a matching release tag such as `v0.1.2` for app version `0.1.2`.
+Use a matching release tag such as `v0.1.0` for app version `0.1.0`.
 
 ---
 
