@@ -6,6 +6,25 @@ For installers and version-specific notes, visit **[Releases](../../releases)**.
 
 ---
 
+## 0.1.2 · Fullscreen playback
+
+- Fixed fullscreen playback to fill the window, hide Streamr headings, and exit with Esc.
+- Kept the fullscreen guidance visible for 3.5 seconds.
+- Made the Next episode prompt compact and show it only during the final 30 seconds when the player reports progress.
+- Added Railey Dela Peña as the publisher in Windows installed-app details.
+- Kept the existing app identity and local library across the update.
+
+## 0.1.1 · Player and updates
+
+- Background update downloads with a dismissible notification and user-controlled restart.
+- A changelog dialog shown once per installed version.
+- Fixed Electron player fullscreen and compacted the season/search controls.
+- Fixed Everything search requests, including those from installed v0.1.0 apps.
+- Moved the episode queue and season selection beside the player for episodic titles.
+- Grouped watchlist, watched status, and server selection below the player.
+- Kept the synopsis visible and collapsed additional title details by default.
+- Removed duplicate synopsis content and adapted the watch layout for narrow windows.
+
 ## 0.1.0 · Initial release
 
 - Automatic checks for stable releases after startup and every six hours in installed Windows builds.
@@ -15,7 +34,6 @@ For installers and version-specific notes, visit **[Releases](../../releases)**.
 - Public release downloads; the source repository can remain private.
 
 Install this first release manually. The checker requires the release assets and matching metadata to be published.
-
 
 ### Discover more
 

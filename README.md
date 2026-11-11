@@ -57,7 +57,7 @@ Current installers are unsigned. Windows may show a security prompt; verify that
 
 New installers and release notes belong in this repository's **[Releases](../../releases)** section.
 
-**Starting with the first release, v0.1.0**, installed Windows builds check GitHub Releases automatically after opening and every six hours. Open **Settings → App updates** to check manually, download an available update, or restart and install it. Downloads and installation require your action.
+**Starting with the first release, v0.1.0**, installed Windows builds check GitHub Releases automatically after opening and every six hours. Open **Settings → App updates** to check manually, download an available update, or restart and install it. In v0.1.2, fullscreen playback fills the window, Esc exits fullscreen, and the Next episode prompt appears only near the end when playback progress is available. Updates download in the background and a dismissible notification offers Restart & install. A changelog appears once per installed version.
 
 The updater needs a published release with matching update metadata. Install v0.1.0 manually once; it can then check for future releases. You can always download an installer from Releases and run it yourself.
 
