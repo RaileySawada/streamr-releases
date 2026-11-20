@@ -6,6 +6,14 @@ For installers and version-specific notes, visit **[Releases](../../releases)**.
 
 ---
 
+## 0.1.4 · A cleaner app and viewing journal
+
+- Removed the custom title panel, sidebar search entry, and duplicate topbar library button; moved the Streamr logo to the sidebar.
+- Added a responsive, GitHub-style daily activity calendar with searchable month selection and daily details.
+- Added a monthly activity area chart with searchable 6- and 12-month ranges, plus completion and library-mix charts.
+- Saved daily activity locally and included it in version 3 JSON backups.
+- Refined chart spacing and layouts for narrower app windows.
+
 ## 0.1.3 · Window and episode continuity
 
 - Removed the native minimize, maximize, and close controls from the app title bar.
