@@ -6,6 +6,14 @@ For installers and version-specific notes, visit **[Releases](../../releases)**.
 
 ---
 
+## 0.1.3 · Window and episode continuity
+
+- Removed the native minimize, maximize, and close controls from the app title bar.
+- Added fullscreen and close controls beside the sidebar theme switch.
+- Added keyboard shortcuts for search, navigation, player controls, app fullscreen, and closing Streamr, with a reference in Settings.
+- Kept the player mounted between episodes and while a new season loads, preserving fullscreen.
+- Reset episode progress correctly and resume only when the selected episode has saved progress.
+
 ## 0.1.2 · Fullscreen playback
 
 - Fixed fullscreen playback to fill the window, hide Streamr headings, and exit with Esc.
